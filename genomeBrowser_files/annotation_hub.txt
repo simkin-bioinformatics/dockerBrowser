@@ -1,0 +1,15 @@
+hub gene annotations
+shortLabel dfam_annotations
+longLabel dfam_annotations
+useOneFile on
+email charlie.simkin@gmail.com
+
+genome dfam_reconstituted
+
+track dfam_annotations
+shortLabel dfam_annotations
+longLabel dfam_annotations
+visibility full
+type bigGenePred
+bigDataUrl http://74.111.60.108:1234/folders/Dfam_curatedonly_BigBed.bb
+color 40,40,40

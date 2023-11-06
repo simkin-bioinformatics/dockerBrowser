@@ -1,0 +1,17 @@
+hub dfam_full_TE_seeds
+shortLabel dfam_full_TE_seeds
+longLabel dfam_full_TE_seeds
+useOneFile on
+email charlie.simkin@gmail.com
+
+genome dfam_reconstituted
+
+track dfam_full_TE_seeds
+shortLabel dfam_full_TE_seeds
+longLabel dfam_full_TE_seeds
+visibility full
+type bam
+bigDataUrl http://74.111.60.108:1234/folders/bam_main_files/dfam_full_TE_seeds_sorted.bam
+color 0,0,180
+altColor 180,0,0
+autoScale on
