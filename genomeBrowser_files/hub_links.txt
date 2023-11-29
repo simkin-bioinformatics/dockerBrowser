@@ -1,2 +1,0 @@
-Hub 1: http://136.54.85.164:1234/folders/sf_gbib/ucsc_browser_dfam_full_TE_seeds/bam_main_files/hub.txt
-Hub 2: http://136.54.85.164:1234/folders/sf_gbib/ucsc_browser_dfam_full_TE_seeds/TE_genome_hub/hub.txt
