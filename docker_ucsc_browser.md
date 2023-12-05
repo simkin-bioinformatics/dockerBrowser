@@ -5,9 +5,9 @@ remove sudo requirement
 https://docs.docker.com/engine/install/linux-postinstall/
 
 install ucsc docker image
-	mkdir browserDocker && cd browserDocker
-	wget https://raw.githubusercontent.com/ucscGenomeBrowser/kent/master/src/product/installer/docker/Dockerfile
-	docker build . -t gbimage
+> mkdir browserDocker && cd browserDocker
+> wget https://raw.githubusercontent.com/ucscGenomeBrowser/kent/master/src/product/installer/docker/Dockerfile
+> docker build . -t gbimage
 
 run the docker image with a local mount point
 ```
