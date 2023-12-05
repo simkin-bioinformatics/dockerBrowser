@@ -14,13 +14,14 @@ run the docker image with a local mount point
 docker run -d --name genomeBrowser -p 8080:80 gbimage
 ```
 ```
-docker run -d --name genomeBrowser -p 1234:80 --mount type=bind,source=/home/charlie/Dropbox/Bioinformatics/20_Working/dockerBrowser/genomeBrowser_files,target=/usr/local/apache/htdocs/folders gbimage
+docker run -d --name genomeBrowser -p 1234:80 --mount type=bind,source=/home/charlie/Dropbox/dockerBrowser/io_files,target=/usr/local/apache/htdocs/folders gbimage
 ```
 	DocumentRoot is /usr/local/apache/htdocs
 
 bash into the docker container
+```
 	docker exec -it genomeBrowser /bin/bash
-
+```
 
 install micro
 	curl https://getmic.ro | bash
