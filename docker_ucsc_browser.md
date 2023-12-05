@@ -26,6 +26,7 @@ bash into the docker container
 ```
 
 install micro
+
 	curl https://getmic.ro | bash
 
 allow for calling custom tracks locally
