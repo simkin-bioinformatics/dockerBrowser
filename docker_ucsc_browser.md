@@ -5,6 +5,7 @@
 
 - [](https://docs.docker.com/engine/install/linux-postinstall/)
 
+====
 #### install ucsc docker image
 
 ```
@@ -22,14 +23,13 @@ docker run -d --name genomeBrowser -p 8080:80 gbimage
 ```
 docker run -d --name genomeBrowser -p 1234:80 --mount type=bind,source=/home/charlie/projects/dockerBrowser/io_files,target=/usr/local/apache/htdocs/folders gbimage
 ```
-	DocumentRoot is /usr/local/apache/htdocs
+DocumentRoot is /usr/local/apache/htdocs
 
 #### bash into the docker container
 ```
 	docker exec -it genomeBrowser /bin/bash
 ```
-
-- install micro
+install micro
 
 ```	
 curl https://getmic.ro | bash
@@ -74,5 +74,6 @@ service apache2 restart
 
  Take it offline
 
-``` 	/root/browserSetup.sh -o ```
-
+```
+/root/browserSetup.sh -o 
+```
