@@ -1,9 +1,9 @@
 ### install docker engine
-[](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 
 #### remove sudo requirement
 
-[](https://docs.docker.com/engine/install/linux-postinstall/)
+https://docs.docker.com/engine/install/linux-postinstall/
 
 ====
 #### install ucsc docker image
