@@ -3,7 +3,7 @@
 
 #### remove sudo requirement
 
-- [](https://docs.docker.com/engine/install/linux-postinstall/)
+[](https://docs.docker.com/engine/install/linux-postinstall/)
 
 ====
 #### install ucsc docker image
