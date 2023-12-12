@@ -5,6 +5,10 @@ https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 
 https://docs.docker.com/engine/install/linux-postinstall/
 
+#### start on system start
+
+https://docs.docker.com/engine/install/linux-postinstall/#configure-docker-to-start-on-boot-with-systemd
+
 ====
 #### install ucsc docker image
 
