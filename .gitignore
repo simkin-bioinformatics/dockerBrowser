@@ -1,3 +1,4 @@
 .DS_Store
 .snakemake
 io_files
+site_data
