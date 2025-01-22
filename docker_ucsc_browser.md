@@ -25,7 +25,7 @@ docker run -d --name genomeBrowser -p 8080:80 gbimage
 
 #### run the docker image with a local mountpoint for folders
 ```
-docker run -d --name genomeBrowser -p 1234:80 --mount type=bind,source=/home/charlie/projects/dockerBrowser/io_files,target=/usr/local/apache/htdocs/folders gbimage
+docker run -d --name genomeBrowser -p 5212:80 --mount type=bind,source=/home/charlie/projects/dockerBrowser/site_data,target=/usr/local/apache/htdocs/folders gbimage
 ```
 DocumentRoot is /usr/local/apache/htdocs
 
