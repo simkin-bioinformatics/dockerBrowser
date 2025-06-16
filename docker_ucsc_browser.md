@@ -1,16 +1,9 @@
 ## install docker engine
 https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 
-#### remove sudo requirement
-
 https://docs.docker.com/engine/install/linux-postinstall/
 
-#### start on system start
-
-https://docs.docker.com/engine/install/linux-postinstall/#configure-docker-to-start-on-boot-with-systemd
-
-====
-#### install ucsc docker image
+## install ucsc docker image
 
 ```
 mkdir browserDocker && cd browserDocker
@@ -18,28 +11,19 @@ mkdir browserDocker && cd browserDocker
 	docker build . -t gbimage
 ```
 
-#### run the docker image (recommend using the local mountpoint instead)
-```
-docker run -d --name genomeBrowser -p 8080:80 gbimage
-```
-
-#### run the docker image with a local mountpoint for folders
+## run the docker image with a local mountpoint for folders
 ```
 docker run -d \
 --name genomeBrowser \
 -p 5212:80 \
---mount type=bind,source=/home/charlie/projects/dockerBrowser/site_data,target=/usr/local/apache/htdocs/folders gbimage
+-v /home/charlie/git/dockerBrowser/site_data:/usr/local/apache/htdocs/folders \
+gbimage
 ```
 DocumentRoot is /usr/local/apache/htdocs
 
 #### bash into the docker container
 ```
 docker exec -it genomeBrowser /bin/bash
-```
-install micro
-
-```	
-curl https://getmic.ro | bash
 ```
 
 
